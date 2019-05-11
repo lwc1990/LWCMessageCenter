@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'LWCMessageCenter_Example' do
   pod 'LWCMessageCenter', :path => '../'
-
+  pod 'LWCNetWorking', :path => '../../LWCNetWorking'
   target 'LWCMessageCenter_Tests' do
     inherit! :search_paths
 

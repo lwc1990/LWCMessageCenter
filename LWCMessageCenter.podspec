@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LWCMessageCenter/Classes/**/*'
+  s.dependency 'LWCNetWorking'
   
   # s.resource_bundles = {
   #   'LWCMessageCenter' => ['LWCMessageCenter/Assets/*.png']

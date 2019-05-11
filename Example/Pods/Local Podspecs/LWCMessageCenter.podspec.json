@@ -1,0 +1,27 @@
+{
+  "name": "LWCMessageCenter",
+  "version": "0.1.0",
+  "summary": "A short description of LWCMessageCenter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lwc1990/LWCMessageCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lwc1990": "lwc_funnylife@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lwc1990/LWCMessageCenter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LWCMessageCenter/Classes/**/*",
+  "dependencies": {
+    "LWCNetWorking": [
+
+    ]
+  }
+}

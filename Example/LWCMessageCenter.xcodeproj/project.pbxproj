@@ -58,14 +58,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		677E3A6B2180F24DFBC1B217 /* LWCMessageCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LWCMessageCenter.podspec; path = ../LWCMessageCenter.podspec; sourceTree = "<group>"; };
+		677E3A6B2180F24DFBC1B217 /* LWCMessageCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWCMessageCenter.podspec; path = ../LWCMessageCenter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80AE8372ACB0111110701F01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		80AE8372ACB0111110701F01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD0E8C5B6DA57A26C5C06E33 /* Pods-LWCMessageCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWCMessageCenter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWCMessageCenter_Example/Pods-LWCMessageCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C68B17CE99756FE75BD5781C /* Pods-LWCMessageCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWCMessageCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWCMessageCenter_Tests/Pods-LWCMessageCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBF78683F802295C6FAE619D /* Pods_LWCMessageCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWCMessageCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDC3D8B4576302B2710FC343 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CDC3D8B4576302B2710FC343 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA6AC6B1145D400C6785A2E2 /* Pods-LWCMessageCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWCMessageCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWCMessageCenter_Tests/Pods-LWCMessageCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				EF8E59C6C6F4DB036C4F75F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,28 +335,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF8E59C6C6F4DB036C4F75F6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LWCMessageCenter_Example/Pods-LWCMessageCenter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LWCMessageCenter/LWCMessageCenter.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWCMessageCenter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWCMessageCenter_Example/Pods-LWCMessageCenter_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

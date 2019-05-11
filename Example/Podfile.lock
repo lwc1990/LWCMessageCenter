@@ -1,0 +1,22 @@
+PODS:
+  - LWCMessageCenter (0.1.0):
+    - LWCNetWorking
+  - LWCNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - LWCMessageCenter (from `../`)
+  - LWCNetWorking (from `../../LWCNetWorking`)
+
+EXTERNAL SOURCES:
+  LWCMessageCenter:
+    :path: "../"
+  LWCNetWorking:
+    :path: "../../LWCNetWorking"
+
+SPEC CHECKSUMS:
+  LWCMessageCenter: 8cee6402e110f27363defef45432822ca8a024b0
+  LWCNetWorking: ef7064db1194ab1e5fc9fe18a413a2ccf941ba29
+
+PODFILE CHECKSUM: 9a48d7df3355929b7929c258f2b910b2bc464402
+
+COCOAPODS: 1.5.3
